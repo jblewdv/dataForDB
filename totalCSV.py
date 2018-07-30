@@ -84,5 +84,6 @@ stocks = data['S&P 500 Symbols'].values.tolist()
 
 for stock in stocks:
     grabData(ALPHAVANTAGE_API_KEY, stock, 14)
+    sleep(30)
 
 # *************************************************************************
