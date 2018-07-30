@@ -19,7 +19,7 @@
 # *************************************************************************
 
 # IMPORTS
-import sched, time
+from time import sleep
 import pandas as pd
 import numpy as np
 from alpha_vantage.timeseries import TimeSeries
